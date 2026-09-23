@@ -1,0 +1,37 @@
+Q5
+
+n = 10
+p = 3
+R2 = 0.94
+
+Adjusted R2 formula:
+
+1 - ((1 - R2) * (n - 1)) / (n - p - 1)
+
+1 - ((1 - 0.94) * 9) / (10 - 3 - 1)
+
+= 1 - (0.06 * 9) / 6
+
+= 1 - 0.54 / 6
+
+= 1 - 0.09
+
+= 0.91
+
+answer = 0.91
+
+
+Q6
+
+PolynomialFeatures degree=2 with one feature X1 gives:
+
+1, X1, X1^2
+
+answer = B
+
+
+Q7
+
+Adjusted R2 is better when comparing models with more features.
+
+It penalizes useless features, while normal R2 can still go up.

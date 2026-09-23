@@ -1,0 +1,89 @@
+Q4
+
+y = 6x + 10
+
+
+a)
+
+x = 9
+
+6*9 + 10
+= 54 + 10
+= 64
+
+answer = 64
+
+
+b)
+
+x = 5
+
+prediction:
+6*5 + 10 = 40
+
+real y = 41
+
+residual = y - prediction
+41 - 40 = 1
+
+
+c)
+
+x=1
+prediction = 6*1+10 = 16
+e = 19-16 = 3
+e^2 = 9
+
+x=3
+prediction = 6*3+10 = 28
+e = 25-28 = -3
+e^2 = 9
+
+x=5
+prediction = 40
+e = 41-40 = 1
+e^2 = 1
+
+x=7
+prediction = 52
+e = 51-52 = -1
+e^2 = 1
+
+
+SSE = 9+9+1+1 = 20
+
+MSE = 20/4 = 5
+
+RMSE = sqrt(5)
+= 2.24
+
+
+d)
+
+mean y:
+
+19+25+41+51 = 136
+
+136/4 = 34
+
+
+SST:
+
+(19-34)^2 = 225
+(25-34)^2 = 81
+(41-34)^2 = 49
+(51-34)^2 = 289
+
+SST = 225+81+49+289
+= 644
+
+
+R2 = 1 - SSE/SST
+
+= 1 - 20/644
+= 0.969
+
+
+so R2 is about 0.97
+
+the model explains about 97% of the variation in the scores

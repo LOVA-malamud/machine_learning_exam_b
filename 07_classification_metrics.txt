@@ -1,0 +1,60 @@
+Q10
+
+total = 250
+
+flagged positive = 60
+45 really had disease
+
+TP = 45
+FP = 60 - 45 = 15
+
+cleared = 190
+25 really had disease
+
+FN = 25
+TN = 190 - 25 = 165
+
+
+confusion matrix:
+
+            predicted +
+            predicted -
+
+actual +     45     25
+actual -     15     165
+
+
+accuracy:
+
+(45 + 165) / 250
+= 210 / 250
+= 0.84
+
+accuracy = 84%
+
+
+precision:
+
+45 / (45 + 15)
+= 45 / 60
+= 0.75
+
+precision = 75%
+
+
+recall:
+
+45 / (45 + 25)
+= 45 / 70
+= 0.643
+
+recall = 64.3%
+
+
+F1:
+
+2 * (0.75 * 0.643) / (0.75 + 0.643)
+
+= 0.692
+
+F1 = about 69.2%

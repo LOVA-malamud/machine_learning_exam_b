@@ -1,0 +1,49 @@
+Q1
+
+min = 18
+max = 90
+
+90 - 18 = 72
+
+18 = (18-18)/72 = 0
+42 = (42-18)/72 = 0.33
+66 = (66-18)/72 = 0.67
+90 = (90-18)/72 = 1
+
+answer:
+0, 0.33, 0.67, 1
+
+
+Q2
+
+numbers:
+8,10,10,14,14,16
+
+mean:
+8+10+10+14+14+16 = 72
+72/6 = 12
+
+differences:
+-4,-2,-2,2,2,4
+
+square:
+16,4,4,4,4,16
+
+sum = 48
+
+48/6 = 8
+
+sqrt(8) = 2.83
+
+std = 2.83
+
+
+Q3
+
+Min-Max:
+good - all values go between 0 and 1
+bad - outliers can affect it a lot
+
+Standardization:
+good - good when the features have different scales
+bad - the values are not between 0 and 1

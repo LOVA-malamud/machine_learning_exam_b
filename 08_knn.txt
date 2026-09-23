@@ -1,0 +1,50 @@
+Q11
+
+tickets range = 0 to 10
+usage range = 0 to 100
+
+A:
+tickets = 2/10 = 0.2
+usage = 80/100 = 0.8
+
+B:
+tickets = 9/10 = 0.9
+usage = 15/100 = 0.15
+
+New:
+tickets = 6/10 = 0.6
+usage = 40/100 = 0.4
+
+
+distance New to A:
+
+sqrt((0.6-0.2)^2 + (0.4-0.8)^2)
+
+= sqrt(0.16 + 0.16)
+
+= sqrt(0.32)
+
+= 0.566
+
+
+distance New to B:
+
+sqrt((0.6-0.9)^2 + (0.4-0.15)^2)
+
+= sqrt(0.09 + 0.0625)
+
+= sqrt(0.1525)
+
+= 0.391
+
+
+B is closer.
+
+k = 1 so prediction = Yes (cancelled)
+
+
+Q12
+
+With k=4 there is a 2-2 tie.
+
+I would use an odd k, for example k=3, so there is no tie.

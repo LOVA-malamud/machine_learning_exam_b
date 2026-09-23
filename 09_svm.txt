@@ -1,0 +1,39 @@
+Q13
+
+boundary:
+6x1 + 8x2 - 48 = 0
+
+w = (6,8)
+
+|w| = sqrt(6^2 + 8^2)
+= sqrt(36+64)
+= 10
+
+
+P = (10,2)
+
+6*10 + 8*2 - 48
+= 60 + 16 - 48
+= 28
+
+P is on the positive side
+
+distance:
+28 / 10 = 2.8
+
+
+Q = (3,3)
+
+6*3 + 8*3 - 48
+= 18 + 24 - 48
+= -6
+
+Q is on the negative side
+
+distance:
+|-6| / 10 = 0.6
+
+
+Q is closer to the boundary
+
+so Q is more likely to be a support vector
