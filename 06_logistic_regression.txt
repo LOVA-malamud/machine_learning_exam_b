@@ -13,7 +13,6 @@ P = 0.231
 
 answer = about 23%
 
-
 Q9
 
 x = 8

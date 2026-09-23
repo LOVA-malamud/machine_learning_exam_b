@@ -57,7 +57,6 @@ MSE = 20/4 = 5
 RMSE = sqrt(5)
 = 2.24
 
-
 d)
 
 mean y:

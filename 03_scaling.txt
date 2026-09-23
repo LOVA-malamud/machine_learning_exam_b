@@ -13,7 +13,6 @@ max = 90
 answer:
 0, 0.33, 0.67, 1
 
-
 Q2
 
 numbers:
