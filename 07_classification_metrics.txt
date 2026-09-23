@@ -17,11 +17,9 @@ TN = 190 - 25 = 165
 
 confusion matrix:
 
-            predicted +
-            predicted -
-
-actual +     45     25
-actual -     15     165
+             pred +   pred -
+actual +       45       25
+actual -       15      165
 
 
 accuracy:
